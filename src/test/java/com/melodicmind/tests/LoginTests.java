@@ -46,7 +46,7 @@ public class LoginTests extends TestBase {
 
     @CsvFileSource(resources = "/negative_login_wrong_password.csv")
     @Tag("login")
-    @DisplayName("Negative login with wrong password ")
+    @DisplayName("Negative login with wrong password")
     @ParameterizedTest(name = "Negative login {0}.  Valid email: {1} and wrong password: {2}")
     void negativeLoginWrongPassword(String nameTest, String email, String password) {
         loginPage

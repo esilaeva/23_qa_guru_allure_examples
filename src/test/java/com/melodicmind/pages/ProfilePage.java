@@ -10,5 +10,4 @@ import static com.codeborne.selenide.Selenide.$;
 public class ProfilePage extends TestBase {
 
     SelenideElement buttonDeleteAccount = $("href='/delete-user'");
-
 }

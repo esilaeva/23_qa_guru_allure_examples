@@ -18,5 +18,4 @@ public class QandAPage extends TestBase {
     public void checkQandAPageWasOpened() {
         title.shouldHave(text("Question and answers"));
     }
-
 }
