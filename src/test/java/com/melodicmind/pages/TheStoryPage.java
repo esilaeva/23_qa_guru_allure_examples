@@ -17,4 +17,5 @@ public class TheStoryPage extends TestBase {
     public void checkTheStoryPageWasOpened() {
         title.shouldHave(text("The Story"));
     }
+
 }
